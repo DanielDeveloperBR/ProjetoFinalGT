@@ -7,10 +7,14 @@ import { PaginaInicialComponent } from './Components/pagina-inicial/pagina-inici
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from "./Components/navbar/navbar.component";
 import { CarouselComponent } from './Components/carousel/carousel.component';
+import { SobreComponent } from './Components/sobre/sobre.component';
+import { ContatosComponent } from './Components/contatos/contatos.component';
 @NgModule({
   declarations: [
     AppComponent,
     PaginaInicialComponent,
+    SobreComponent,
+    ContatosComponent,
   ],
   imports: [
     BrowserModule,
