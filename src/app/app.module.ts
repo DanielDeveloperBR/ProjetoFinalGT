@@ -9,12 +9,16 @@ import { NavbarComponent } from "./Components/navbar/navbar.component";
 import { CarouselComponent } from './Components/carousel/carousel.component';
 import { SobreComponent } from './Components/sobre/sobre.component';
 import { ContatosComponent } from './Components/contatos/contatos.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { CardComponent } from './Components/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
     PaginaInicialComponent,
     SobreComponent,
     ContatosComponent,
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
